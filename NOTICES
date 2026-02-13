@@ -1,0 +1,83 @@
+AtomLife — Third-Party Notices
+
+AtomLife includes third-party software components. The respective copyrights and licenses
+are owned by their authors. This file is provided for attribution and informational purposes.
+
+----------------------------------------------------------------
+libGDX (and related modules: gdx, gdx-backend-lwjgl3, gdx-tools, gdx-freetype, gdx-bullet,
+gdx-ai, Ashley, gdx-controllers)
+License: Apache License 2.0
+Copyright:
+  The libGDX contributors
+
+----------------------------------------------------------------
+LWJGL (Lightweight Java Game Library) 3.x
+License: BSD 3-Clause License
+Copyright:
+  Copyright (c) 2012-present Lightweight Java Game Library
+
+----------------------------------------------------------------
+gdx-websockets (MrStahlfelge)
+License: Apache License 2.0
+Copyright:
+  The gdx-websockets contributors
+
+----------------------------------------------------------------
+nv-websocket-client
+License: Apache License 2.0
+Copyright:
+  The nv-websocket-client contributors
+
+----------------------------------------------------------------
+Jamepad
+License: Apache License 2.0
+Copyright:
+  The Jamepad contributors
+
+----------------------------------------------------------------
+JOrbis (Ogg Vorbis decoder)
+License: GNU Lesser General Public License v2.1 (LGPL-2.1)
+Copyright:
+  The JOrbis contributors
+
+----------------------------------------------------------------
+Google Guava
+License: Apache License 2.0
+Copyright:
+  Google and Guava contributors
+
+----------------------------------------------------------------
+Apache Fory
+License: Apache License 2.0
+Copyright:
+  The Apache Software Foundation
+
+----------------------------------------------------------------
+Universal Tween Engine
+License: Apache License 2.0
+Copyright:
+  The Universal Tween Engine contributors
+
+----------------------------------------------------------------
+gdx-vfx (CrashInvaders)
+License: Apache License 2.0
+Copyright:
+  The gdx-vfx contributors
+
+----------------------------------------------------------------
+Crux
+License: CC0-1.0
+Copyright:
+  The Crux contributors
+
+----------------------------------------------------------------
+Digital
+License: Apache License 2.0
+Copyright:
+  The Digital contributors
+
+----------------------------------------------------------------
+
+Additional third-party libraries may be included in the distribution.
+Please refer to the project’s dependency list and the included source/binary distributions
+for the exact set of libraries and their licenses.
