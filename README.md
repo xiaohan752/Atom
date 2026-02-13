@@ -9,13 +9,13 @@ Not just a game.
 
 ## Contents
 
- - [Getting Started](#GettingStarted)
+ - [Getting Started](#Getting-Started)
    - [Requirements](#Requirements)
    - [Installation](#Installation)
- - [Gameplay Overview](#GameplayOverview)
+ - [Gameplay Overview](#Gameplay-Overview)
  - [Controls](#Controls)
- - [Console Commands](#ConsoleCommands)
- - [Project Structure](#ProjectStructure)
+ - [Console Commands](#Console-Commands)
+ - [Project Structure](#Project-Structure)
  - [Trobleshooting](#Trobleshooting)
  - [License](#License)
  - [Credits](#Credits)
