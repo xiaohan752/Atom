@@ -122,7 +122,7 @@ Simply download the latest release and enjoy :)
 - Change the weather:
   - `weather clear|overcast|rain|snow|thunder`
 
-> Note: More features comming soon. 
+> Note: More features coming soon. 
 
 ## Trobleshooting
 
