@@ -20,7 +20,7 @@ public final class ConsoleCommandContext {
     public final WeatherSystem weatherSystem;
     public final WeatherAutoSync weatherAutoSync;
 
-    // ✅ NEW: world access for setblock
+    // world access for setblock
     public final World world;
 
     private final Consumer<String> out;
