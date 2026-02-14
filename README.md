@@ -34,7 +34,7 @@ java -version
 
 ### Installation
 
-We recommend you to download the latest release and execute:
+We recommend you to download the latest release and execute:  
 **Windows:**
 ```bash
 run.bat
