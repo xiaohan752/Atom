@@ -41,6 +41,7 @@ run.bat
 ```
 **Linux/macOS:**
 ```bash
+chmod +x run.sh
 run.sh
 ```
 You can also run the following command:
