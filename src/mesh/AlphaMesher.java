@@ -5,7 +5,7 @@ import com.badlogic.gdx.utils.ShortArray;
 import com.atom.life.world.Chunk;
 
 /**
- * Alpha cubes mesher (per-face, no greedy), keeps your current cull rules.
+ * Alpha cubes mesher (per-face, no greedy).
  */
 final class AlphaMesher {
 
