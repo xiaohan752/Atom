@@ -185,7 +185,7 @@ Atom stores gameplay data and configuration as JSON. These files are located in 
 ```
 
 **Fields:**
-- id (*int*) — Unique numeric block ID. Must not collide with other blocks.
+- id (*int*) — Unique numeric block ID with a maximum of 255. Must not collide with other blocks.
 - name (*string*) — Unique block name.
 - opaque (*bool*) — Whether the block blocks light.
 - solid (*bool*) — Whether the block is collidable for movement.
