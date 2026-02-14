@@ -304,7 +304,6 @@ public class ConsoleOverlay extends InputAdapter {
     }
 
     public boolean isBlockingGameInput() {
-        // open 且没有进入倒计时输入透传 => 才阻塞游戏控制
         return open && autoCloseLeft < 0f;
     }
 }
