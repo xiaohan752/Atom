@@ -34,7 +34,19 @@ java -version
 
 ### Installation
 
-Simply download the latest release and enjoy :)
+We recommend you to download the latest release and execute:
+**Windows:**
+```bash
+run.bat
+```
+**Linux/macOS:**
+```bash
+run.sh
+```
+You can also run the following command:
+```bash
+java -javaagent:Atom-<version>.jar -jar Atom-<version>.jar
+```
 
 ## Project Structure
 
