@@ -93,7 +93,7 @@ Atom includes a block-based circuit system for building logic and automation.
 > Notes:
 > - Features may change rapidly during development.
 > - Some systems may require an internet connection to fetch data.
-> - Some blocks use **slope-shaped collision**. Slopes are defined by the block’s **collision volume**, meaning the walkable/solid shape is determined by its collision geometry rather than the visual mesh alone.
+> - Some blocks use **slope-shaped mesh**. Slopes are defined by the block’s **collision volume**, meaning the walkable/solid shape is determined by its collision geometry rather than the visual mesh alone.
 
 ## Controls
 
