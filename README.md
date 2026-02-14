@@ -253,7 +253,7 @@ If macOS blocks the app:
 - Right-click the app → Open
 - Or allow it in System Settings → Privacy & Security
 
-**“Missing classes” when running a thin JAR**
+**“Missing classes” when running JAR**
 
 We primarily targets fat JAR and Construo packaging.
 If you experiment with thin distributions, ensure your Jar is downloaded from the latest release. 
