@@ -137,7 +137,7 @@ Atom includes a block-based circuit system for building logic and automation.
 
 ## Customizing Data Files
 
-Atom stores gameplay data and configuration as JSON. These files are located in your game root/save directory.
+Atom stores gameplay data and configuration as JSON. These files are located in your game root/save directory. All the contents below are customizable and gives you the full freedom to build your world. 
 
 ### `config.json`
 
