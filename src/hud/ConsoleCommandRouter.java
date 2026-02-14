@@ -33,7 +33,6 @@ public final class ConsoleCommandRouter {
                 // ConsoleCommands handles full validation/usage
                 ConsoleCommands.setBlock(ctx, parts);
             }
-            // ✅ MOD: new command
             case "weatherauto" -> {
                 String arg = (parts.length >= 2) ? joinTail(parts, 1) : "status";
                 ConsoleCommands.weatherAuto(ctx, stripOuterQuotes(arg));
