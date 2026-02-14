@@ -15,6 +15,7 @@ Not just a game.
  - [Gameplay Overview](#Gameplay-Overview)
  - [Controls](#Controls)
  - [Console Commands](#Console-Commands)
+ - [Customizing Data Files](#Customizing-Data-Files)
  - [Project Structure](#Project-Structure)
  - [Trobleshooting](#Trobleshooting)
  - [License](#License)
@@ -45,7 +46,7 @@ Simply download the latest release and enjoy :)
 - `data/` save/load (world config, player state, etc.)
 - `mesh/` chunk meshing pipelines
 
-### Save / Load Notes
+### Save / Load World
 
 > World save config is stored in world.json under the selected world directory.  
 > Chunk storage uses a binary format with compression and integrity checks:  
@@ -76,13 +77,23 @@ Simply download the latest release and enjoy :)
 - **Day/Night cycle** affecting atmosphere and visuals.
 - **Weather system** influencing the in-game sky and ambience.
 
+### Circuit System
+
+Atom includes a block-based circuit system for building logic and automation.
+
+- **Customizable colors:** circuits come in four colors, and **signals do not interfere** across colors. See below for customization details.
+- **Propagation model:** signal updates use a **depth-first search** traversal.
+- **Wire range:** wire signals propagate with **no distance limit**.
+- **NOT gate behavior:** the **bottom face is the input**, and the **other five faces are outputs**.
+
 ### Debug & Tools
 - Built-in **debug overlay** to inspect runtime values.
 - In-game **console** for quick commands and testing.
 
 > Notes:
-> - Features and balancing may change rapidly during development.
+> - Features may change rapidly during development.
 > - Some systems may require an internet connection to fetch data.
+> - Some blocks use **slope-shaped collision**. Slopes are defined by the block’s **collision volume**, meaning the walkable/solid shape is determined by its collision geometry rather than the visual mesh alone.
 
 ## Controls
 
@@ -109,7 +120,7 @@ Simply download the latest release and enjoy :)
 
 ### UI / Debug
 - **Esc** — Pause / Release mouse cursor
-- **` (Backquote)** — Toggle Console
+- **SLASH** — Toggle Console
 - **F3** — Toggle Debug Overlay
 
 ## Console Commands
@@ -122,15 +133,125 @@ Simply download the latest release and enjoy :)
 - Change the weather:
   - `weather clear|overcast|rain|snow|thunder`
 
-> Note: More features coming soon. 
+> Note: More features coming soon.
+
+## Customizing Data Files
+
+Atom stores gameplay data and configuration as JSON. These files are located in your game root/save directory.
+
+### `config.json`
+
+**Purpose:** Global gameplay settings.
+
+**Example:**
+```json
+{
+  "worldName": "World",
+  "reach": 5.0,
+  "maxProportion": 0.8
+}
+```
+
+**Fields:**
+- worldName (*string*) — Default world folder/name to load or create.
+- reach (*float*) — Player interaction reach distance.
+- maxProportion (*float*) — Determine the max lines of console display.
+*(Keep between 0.0 and 1.0 unless you know what you’re doing.)*
+
+### `blocks.json`
+
+**Purpose:** Defines all block types: IDs, names, rendering rules, collision rules, and textures.
+
+**Structure:**
+- Root contains "blocks": `[ ... ]`
+- Each entry defines a single block.
+
+**Example:**
+```json
+{
+  "blocks": [
+    {
+      "id": 0,
+      "name": "air",
+      "opaque": false,
+      "solid": false,
+      "shape": "air",
+      "renderLayer": "none",
+      "tiles": { "top": 0, "side": 0, "bottom": 0 },
+      "texture": { "color": "#00000000", "jitter": false }
+    }
+  ]
+}
+```
+
+**Fields:**
+- id (*int*) — Unique numeric block ID. Must not collide with other blocks.
+- name (*string*) — Unique block name.
+- opaque (*bool*) — Whether the block blocks light.
+- solid (*bool*) — Whether the block is collidable for movement.
+- shape (*string*) — Mesh shape preset.
+- renderLayer (*string*) — Rendering category.
+- tiles (*object*) — Texture atlas indices for faces:
+  - top, side, bottom (*int*)
+- texture (*object*) — Visual modifiers:
+  - color (*string*) — Hex RGBA like #RRGGBBAA
+  - jitter (*bool*) — Whether texture slight variation is applied
+
+> Notes:
+> Changing block IDs in an existing world can corrupt saves or remap blocks unexpectedly.
+> When adding new blocks, append new IDs rather than renumbering old ones.
+
+### `player.json`
+
+**Purpose:** Stores the player camera/body state for a world.
+
+**Example:**
+```json
+{
+  "x": 85.52673,
+  "y": 87.621,
+  "z": -120.51774,
+  "yawDeg": 336.90042,
+  "pitchDeg": 35.7631,
+  "flyMode": true
+}
+```
+
+**Fields:**
+- x, y, z (*float*) — Player position.
+- yawDeg (*float*) — Horizontal look angle in degrees.
+- pitchDeg (*float*) — Vertical look angle in degrees.
+- flyMode (*bool*) — Whether fly mode is enabled.
+
+### `world.json`
+
+**Purpose:** Stores world-creation metadata and locks important settings for that save.
+
+**Example:**
+```json
+{
+  "seed": 6385075794901389989,
+  "worldMode": "normal",
+  "renderDistance": 8
+}
+```
+
+**Fields:**
+- seed (*long*) — World generation seed.
+- worldMode (*string*) — World generation mode, including:
+  - normal
+  - flat
+  - single
+- renderDistance (*int*) — Render distance in chunks.
+- version (*string*) — Game version when the world was created/migrated.
 
 ## Trobleshooting
 
 **macOS: app won’t run / permissions**
 
 If macOS blocks the app:
- - Right-click the app → Open
- - Or allow it in System Settings → Privacy & Security
+- Right-click the app → Open
+- Or allow it in System Settings → Privacy & Security
 
 **“Missing classes” when running a thin JAR**
 
@@ -143,15 +264,15 @@ If you experiment with thin distributions, ensure your Jar is downloaded from th
 Copyright © AtomLife Studio.
 
 See:
- - ```COPYRIGHT```
- - ```LICENSE```
- - ```NOTICES```
+- `COPYRIGHT`
+- `LICENSE`
+- `NOTICES`
 
 ## Credits
 
 Built with:
- - libGDX + LWJGL3
- - Additional open-source libraries listed in ```NOTICES```
+- libGDX + LWJGL3
+- Additional open-source libraries listed in `NOTICES`
 
 ## Contributing
 
