@@ -24,7 +24,7 @@ public class ConsoleOverlay extends InputAdapter {
     private final BlockRegistry registry;
 
     private SpriteBatch batch;
-    private final BitmapFont font = new BitmapFont(); // 你也可以换成你自己的 font
+    private final BitmapFont font = new BitmapFont();
     private final GlyphLayout layout = new GlyphLayout();
     private final OrthographicCamera cam = new OrthographicCamera();
 
