@@ -7,7 +7,7 @@ Not just a game.
 > **Engine:** libGDX  
 > **Build Tool:** Gradle
 
-## Contents
+## 💡 Contents
 
  - [Getting Started](#Getting-Started)
    - [Requirements](#Requirements)
@@ -22,7 +22,7 @@ Not just a game.
  - [Credits](#Credits)
  - [Contributing](#Contributing)
 
-## Getting Started
+## 📚 Getting Started
 
 ### Requirements
 
@@ -49,7 +49,7 @@ You can also run the following command:
 java -javaagent:Atom-<version>.jar -jar Atom-<version>.jar
 ```
 
-## Project Structure
+## 🧩 Project Structure
 
 ### Key Folders
 
@@ -66,7 +66,7 @@ java -javaagent:Atom-<version>.jar -jar Atom-<version>.jar
 >  - New format: *.bin.z 
 >  - Legacy format: *.bin.gz
 
-## Gameplay Overview
+## 🎉 Gameplay Overview
 
 **Atom** is a sandbox voxel game focused on exploration, building, and full-world interaction.
 
@@ -108,7 +108,7 @@ Atom includes a block-based circuit system for building logic and automation.
 > - Some systems may require an internet connection to fetch data.
 > - Some blocks use **slope-shaped mesh**. Slopes are defined by the block’s **collision volume**, meaning the walkable/solid shape is determined by its collision geometry rather than the visual mesh alone.
 
-## Controls
+## ⌨️ Controls
 
 > Default keybinds. Some bindings may change during development.
 
@@ -148,7 +148,7 @@ Atom includes a block-based circuit system for building logic and automation.
 
 > Note: More features coming soon.
 
-## Customizing Data Files
+## 🎨 Customizing Data Files
 
 Atom stores gameplay data and configuration as JSON. These files are located in your game root/save directory. All the contents below are customizable and gives you the full freedom to build your world. 
 
@@ -258,7 +258,7 @@ Atom stores gameplay data and configuration as JSON. These files are located in 
 - renderDistance (*int*) — Render distance in chunks.
 - version (*string*) — Game version when the world was created/migrated.
 
-## Trobleshooting
+## 🎯 Trobleshooting
 
 **macOS: app won’t run / permissions**
 
