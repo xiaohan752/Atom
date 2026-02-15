@@ -136,7 +136,7 @@ Atom includes a block-based circuit system for building logic and automation.
 - **SLASH** — Toggle Console
 - **F3** — Toggle Debug Overlay
 
-## Console Commands
+## 🎮 Console Commands
 
 - Place a block at a specific xyz or at your crosshair:
   - `setblock <x> <y> <z> <blockName>`
