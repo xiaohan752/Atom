@@ -49,6 +49,16 @@ You can also run the following command:
 java -javaagent:Atom-<version>.jar -jar Atom-<version>.jar
 ```
 
+## 👑 Highlights
+
+This project renders the entire frame through Frame Buffer Objects (FBOs). Instead of drawing directly to the default backbuffer, the game renders the world and UI into off-screen textures first, then composes the final image in a final pass.
+
+Why FBO-first?
+- Deterministic composition: all layers can be ordered and blended reliably.
+- Post-processing ready: screen-space effects are simple fullscreen passes.
+- Stable GL3 core profile workflow: avoids relying on fixed pipeline behavior and keeps all rendering explicit.
+- Multi-resolution support: render the 3D world at a different resolution than UI, or scale for performance.
+
 ## 🧩 Project Structure
 
 ### Key Folders
