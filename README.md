@@ -9,18 +9,19 @@ Not just a game.
 
 ## 💡 Contents
 
- - [Getting Started](#Getting-Started)
-   - [Requirements](#Requirements)
-   - [Installation](#Installation)
- - [Gameplay Overview](#Gameplay-Overview)
- - [Controls](#Controls)
- - [Console Commands](#Console-Commands)
- - [Customizing Data Files](#Customizing-Data-Files)
- - [Project Structure](#Project-Structure)
- - [Trobleshooting](#Trobleshooting)
- - [License](#License)
- - [Credits](#Credits)
- - [Contributing](#Contributing)
+- [Getting Started](#Getting-Started)
+  - [Requirements](#Requirements)
+  - [Installation](#Installation)
+- [Highlights](#Highlights)
+- [Gameplay Overview](#Gameplay-Overview)
+- [Controls](#Controls)
+- [Console Commands](#Console-Commands)
+- [Customizing Data Files](#Customizing-Data-Files)
+- [Project Structure](#Project-Structure)
+- [Trobleshooting](#Trobleshooting)
+- [License](#License)
+- [Credits](#Credits)
+- [Contributing](#Contributing)
 
 ## 📚 Getting Started
 
