@@ -13,6 +13,7 @@ Not just a game.
   - [Requirements](#Requirements)
   - [Installation](#Installation)
 - [Highlights](#Highlights)
+- [Project Structure](#Project-Structure)
 - [Gameplay Overview](#Gameplay-Overview)
 - [Controls](#Controls)
 - [Console Commands](#Console-Commands)
