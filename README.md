@@ -281,7 +281,7 @@ If macOS blocks the app:
 **“Missing classes” when running JAR**
 
 We primarily targets fat JAR and Construo packaging.
-If you experiment with class issues, ensure your Jar is downloaded from the latest release. 
+If you experiment with class issues, ensure your JAR is downloaded from the latest release. 
 
 ## License
 
