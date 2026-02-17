@@ -268,7 +268,6 @@ Atom stores gameplay data and configuration as JSON. These files are located in 
   - flat
   - single
 - renderDistance (*int*) — Render distance in chunks.
-- version (*string*) — Game version when the world was created/migrated.
 
 ## 🎯 Trobleshooting
 
