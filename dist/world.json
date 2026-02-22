@@ -1,0 +1,130 @@
+{
+  "schema": 3,
+  "seed": 4156089030145385279,
+  "worldMode": "normal",
+  "renderDistance": 8,
+  "version": "Beta_22022026",
+
+  "biomeNoise": {
+    "temperatureScale": 0.0012,
+    "moistureScale": 0.0012,
+    "blendScale": 0.0008
+  },
+
+  "biomes": [
+    {
+      "name": "plains",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.30,
+      "temperatureMax": 0.75,
+      "moistureMin": 0.25,
+      "moistureMax": 0.80,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "lime_block_jitter",
+      "surfaceFiller": "brown_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    },
+    {
+      "name": "forest",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.25,
+      "temperatureMax": 0.70,
+      "moistureMin": 0.55,
+      "moistureMax": 1.00,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "lime_block_jitter",
+      "surfaceFiller": "brown_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    },
+    {
+      "name": "desert",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.65,
+      "temperatureMax": 1.00,
+      "moistureMin": 0.00,
+      "moistureMax": 0.35,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "yellow_block_jitter",
+      "surfaceFiller": "yellow_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    },
+    {
+      "name": "snowfield",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.00,
+      "temperatureMax": 0.25,
+      "moistureMin": 0.20,
+      "moistureMax": 1.00,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "white_block_jitter",
+      "surfaceFiller": "brown_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    },
+    {
+      "name": "badlands",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.55,
+      "temperatureMax": 1.00,
+      "moistureMin": 0.10,
+      "moistureMax": 0.45,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "yellow_block_jitter",
+      "surfaceFiller": "brown_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    },
+    {
+      "name": "swamp",
+      "enabled": true,
+      "weight": 1.0,
+      "temperatureMin": 0.45,
+      "temperatureMax": 0.90,
+      "moistureMin": 0.70,
+      "moistureMax": 1.00,
+
+      "heightOffset": 0,
+      "heightAmpMul": 1.00,
+      "detailAmpMul": 1.00,
+      "roughnessMul": 1.00,
+
+      "surfaceTop": "brown_block_jitter",
+      "surfaceFiller": "brown_block_jitter",
+      "surfaceStone": "light_gray_block_jitter",
+      "surfaceWater": "blue_water"
+    }
+  ]
+}
