@@ -1,0 +1,6 @@
+{
+  "worldName": "World",
+  "reach": 5.0,
+  "maxProportion": 0.8,
+  "weatherAutoSyncSeconds": 600
+}

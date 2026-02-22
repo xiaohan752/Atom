@@ -1,0 +1,4669 @@
+{
+  "blocks": [
+    {
+      "id": 0,
+      "name": "air",
+      "opaque": false,
+      "solid": false,
+      "shape": "air",
+      "renderLayer": "none",
+      "tiles": {
+        "top": 0,
+        "side": 0,
+        "bottom": 0
+      },
+      "texture": {
+        "color": "#00000000",
+        "jitter": false
+      }
+    },
+    {
+      "id": 1,
+      "name": "white_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 1,
+        "side": 1,
+        "bottom": 1
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "l_gray_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 2,
+        "side": 2,
+        "bottom": 2
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "gray_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 3,
+        "side": 3,
+        "bottom": 3
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "black_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 4,
+        "side": 4,
+        "bottom": 4
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 5,
+      "name": "red_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 5,
+        "side": 5,
+        "bottom": 5
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "orange_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 6,
+        "side": 6,
+        "bottom": 6
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 7,
+      "name": "yellow_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 7,
+        "side": 7,
+        "bottom": 7
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "lime_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 8,
+        "side": 8,
+        "bottom": 8
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 9,
+      "name": "green_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 9,
+        "side": 9,
+        "bottom": 9
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 10,
+      "name": "cyan_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 10,
+        "side": 10,
+        "bottom": 10
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 11,
+      "name": "l_blue_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 11,
+        "side": 11,
+        "bottom": 11
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 12,
+      "name": "blue_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 12,
+        "side": 12,
+        "bottom": 12
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 13,
+      "name": "purple_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 13,
+        "side": 13,
+        "bottom": 13
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 14,
+      "name": "magenta_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 14,
+        "side": 14,
+        "bottom": 14
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 15,
+      "name": "pink_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 15,
+        "side": 15,
+        "bottom": 15
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 16,
+      "name": "brown_block",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 16,
+        "side": 16,
+        "bottom": 16
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 17,
+      "name": "white_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 17,
+        "side": 17,
+        "bottom": 17
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 18,
+      "name": "l_gray_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 18,
+        "side": 18,
+        "bottom": 18
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 19,
+      "name": "gray_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 19,
+        "side": 19,
+        "bottom": 19
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 20,
+      "name": "black_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 20,
+        "side": 20,
+        "bottom": 20
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 21,
+      "name": "red_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 21,
+        "side": 21,
+        "bottom": 21
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 22,
+      "name": "orange_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 22,
+        "side": 22,
+        "bottom": 22
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 23,
+      "name": "yellow_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 23,
+        "side": 23,
+        "bottom": 23
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 24,
+      "name": "lime_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 24,
+        "side": 24,
+        "bottom": 24
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 25,
+      "name": "green_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 25,
+        "side": 25,
+        "bottom": 25
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 26,
+      "name": "cyan_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 26,
+        "side": 26,
+        "bottom": 26
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 27,
+      "name": "l_blue_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 27,
+        "side": 27,
+        "bottom": 27
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 28,
+      "name": "blue_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 28,
+        "side": 28,
+        "bottom": 28
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 29,
+      "name": "purple_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 29,
+        "side": 29,
+        "bottom": 29
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 30,
+      "name": "magenta_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 30,
+        "side": 30,
+        "bottom": 30
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 31,
+      "name": "pink_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 31,
+        "side": 31,
+        "bottom": 31
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 32,
+      "name": "brown_block_jitter",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 32,
+        "side": 32,
+        "bottom": 32
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": true,
+        "jitterStrength": 0.04,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 33,
+      "name": "white_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 33,
+        "side": 33,
+        "bottom": 33
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 34,
+      "name": "white_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 34,
+        "side": 34,
+        "bottom": 34
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 35,
+      "name": "white_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 35,
+        "side": 35,
+        "bottom": 35
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 36,
+      "name": "white_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 36,
+        "side": 36,
+        "bottom": 36
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 37,
+      "name": "l_gray_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 37,
+        "side": 37,
+        "bottom": 37
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 38,
+      "name": "l_gray_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 38,
+        "side": 38,
+        "bottom": 38
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 39,
+      "name": "l_gray_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 39,
+        "side": 39,
+        "bottom": 39
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 40,
+      "name": "l_gray_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 40,
+        "side": 40,
+        "bottom": 40
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 41,
+      "name": "gray_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 41,
+        "side": 41,
+        "bottom": 41
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 42,
+      "name": "gray_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 42,
+        "side": 42,
+        "bottom": 42
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 43,
+      "name": "gray_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 43,
+        "side": 43,
+        "bottom": 43
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 44,
+      "name": "gray_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 44,
+        "side": 44,
+        "bottom": 44
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 45,
+      "name": "black_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 45,
+        "side": 45,
+        "bottom": 45
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 46,
+      "name": "black_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 46,
+        "side": 46,
+        "bottom": 46
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 47,
+      "name": "black_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 47,
+        "side": 47,
+        "bottom": 47
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 48,
+      "name": "black_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 48,
+        "side": 48,
+        "bottom": 48
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 49,
+      "name": "red_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 49,
+        "side": 49,
+        "bottom": 49
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 50,
+      "name": "red_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 50,
+        "side": 50,
+        "bottom": 50
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 51,
+      "name": "red_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 51,
+        "side": 51,
+        "bottom": 51
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 52,
+      "name": "red_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 52,
+        "side": 52,
+        "bottom": 52
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 53,
+      "name": "orange_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 53,
+        "side": 53,
+        "bottom": 53
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 54,
+      "name": "orange_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 54,
+        "side": 54,
+        "bottom": 54
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 55,
+      "name": "orange_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 55,
+        "side": 55,
+        "bottom": 55
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 56,
+      "name": "orange_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 56,
+        "side": 56,
+        "bottom": 56
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 57,
+      "name": "yellow_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 57,
+        "side": 57,
+        "bottom": 57
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 58,
+      "name": "yellow_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 58,
+        "side": 58,
+        "bottom": 58
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 59,
+      "name": "yellow_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 59,
+        "side": 59,
+        "bottom": 59
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 60,
+      "name": "yellow_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 60,
+        "side": 60,
+        "bottom": 60
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 61,
+      "name": "lime_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 61,
+        "side": 61,
+        "bottom": 61
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 62,
+      "name": "lime_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 62,
+        "side": 62,
+        "bottom": 62
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 63,
+      "name": "lime_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 63,
+        "side": 63,
+        "bottom": 63
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 64,
+      "name": "lime_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 64,
+        "side": 64,
+        "bottom": 64
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 65,
+      "name": "green_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 65,
+        "side": 65,
+        "bottom": 65
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 66,
+      "name": "green_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 66,
+        "side": 66,
+        "bottom": 66
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 67,
+      "name": "green_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 67,
+        "side": 67,
+        "bottom": 67
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 68,
+      "name": "green_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 68,
+        "side": 68,
+        "bottom": 68
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 69,
+      "name": "cyan_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 69,
+        "side": 69,
+        "bottom": 69
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 70,
+      "name": "cyan_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 70,
+        "side": 70,
+        "bottom": 70
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 71,
+      "name": "cyan_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 71,
+        "side": 71,
+        "bottom": 71
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 72,
+      "name": "cyan_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 72,
+        "side": 72,
+        "bottom": 72
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 73,
+      "name": "l_blue_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 73,
+        "side": 73,
+        "bottom": 73
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 74,
+      "name": "l_blue_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 74,
+        "side": 74,
+        "bottom": 74
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 75,
+      "name": "l_blue_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 75,
+        "side": 75,
+        "bottom": 75
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 76,
+      "name": "l_blue_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 76,
+        "side": 76,
+        "bottom": 76
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 77,
+      "name": "blue_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 77,
+        "side": 77,
+        "bottom": 77
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 78,
+      "name": "blue_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 78,
+        "side": 78,
+        "bottom": 78
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 79,
+      "name": "blue_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 79,
+        "side": 79,
+        "bottom": 79
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 80,
+      "name": "blue_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 80,
+        "side": 80,
+        "bottom": 80
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 81,
+      "name": "purple_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 81,
+        "side": 81,
+        "bottom": 81
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 82,
+      "name": "purple_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 82,
+        "side": 82,
+        "bottom": 82
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 83,
+      "name": "purple_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 83,
+        "side": 83,
+        "bottom": 83
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 84,
+      "name": "purple_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 84,
+        "side": 84,
+        "bottom": 84
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 85,
+      "name": "magenta_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 85,
+        "side": 85,
+        "bottom": 85
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 86,
+      "name": "magenta_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 86,
+        "side": 86,
+        "bottom": 86
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 87,
+      "name": "magenta_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 87,
+        "side": 87,
+        "bottom": 87
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 88,
+      "name": "magenta_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 88,
+        "side": 88,
+        "bottom": 88
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 89,
+      "name": "pink_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 89,
+        "side": 89,
+        "bottom": 89
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 90,
+      "name": "pink_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 90,
+        "side": 90,
+        "bottom": 90
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 91,
+      "name": "pink_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 91,
+        "side": 91,
+        "bottom": 91
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 92,
+      "name": "pink_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 92,
+        "side": 92,
+        "bottom": 92
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 93,
+      "name": "brown_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 93,
+        "side": 93,
+        "bottom": 93
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 94,
+      "name": "brown_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 94,
+        "side": 94,
+        "bottom": 94
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 95,
+      "name": "brown_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 95,
+        "side": 95,
+        "bottom": 95
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 96,
+      "name": "brown_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 96,
+        "side": 96,
+        "bottom": 96
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 97,
+      "name": "white_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 97,
+        "side": 97,
+        "bottom": 97
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 98,
+      "name": "white_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 98,
+        "side": 98,
+        "bottom": 98
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 99,
+      "name": "white_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 99,
+        "side": 99,
+        "bottom": 99
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 100,
+      "name": "white_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 100,
+        "side": 100,
+        "bottom": 100
+      },
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 101,
+      "name": "l_gray_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 101,
+        "side": 101,
+        "bottom": 101
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 102,
+      "name": "l_gray_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 102,
+        "side": 102,
+        "bottom": 102
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 103,
+      "name": "l_gray_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 103,
+        "side": 103,
+        "bottom": 103
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 104,
+      "name": "l_gray_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 104,
+        "side": 104,
+        "bottom": 104
+      },
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 105,
+      "name": "gray_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 105,
+        "side": 105,
+        "bottom": 105
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 106,
+      "name": "gray_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 106,
+        "side": 106,
+        "bottom": 106
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 107,
+      "name": "gray_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 107,
+        "side": 107,
+        "bottom": 107
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 108,
+      "name": "gray_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 108,
+        "side": 108,
+        "bottom": 108
+      },
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 109,
+      "name": "black_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 109,
+        "side": 109,
+        "bottom": 109
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 110,
+      "name": "black_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 110,
+        "side": 110,
+        "bottom": 110
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 111,
+      "name": "black_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 111,
+        "side": 111,
+        "bottom": 111
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 112,
+      "name": "black_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 112,
+        "side": 112,
+        "bottom": 112
+      },
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 113,
+      "name": "red_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 113,
+        "side": 113,
+        "bottom": 113
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 114,
+      "name": "red_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 114,
+        "side": 114,
+        "bottom": 114
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 115,
+      "name": "red_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 115,
+        "side": 115,
+        "bottom": 115
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 116,
+      "name": "red_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 116,
+        "side": 116,
+        "bottom": 116
+      },
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 117,
+      "name": "orange_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 117,
+        "side": 117,
+        "bottom": 117
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 118,
+      "name": "orange_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 118,
+        "side": 118,
+        "bottom": 118
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 119,
+      "name": "orange_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 119,
+        "side": 119,
+        "bottom": 119
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 120,
+      "name": "orange_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 120,
+        "side": 120,
+        "bottom": 120
+      },
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 121,
+      "name": "yellow_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 121,
+        "side": 121,
+        "bottom": 121
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 122,
+      "name": "yellow_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 122,
+        "side": 122,
+        "bottom": 122
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 123,
+      "name": "yellow_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 123,
+        "side": 123,
+        "bottom": 123
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 124,
+      "name": "yellow_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 124,
+        "side": 124,
+        "bottom": 124
+      },
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 125,
+      "name": "lime_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 125,
+        "side": 125,
+        "bottom": 125
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 126,
+      "name": "lime_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 126,
+        "side": 126,
+        "bottom": 126
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 127,
+      "name": "lime_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 127,
+        "side": 127,
+        "bottom": 127
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 128,
+      "name": "lime_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 128,
+        "side": 128,
+        "bottom": 128
+      },
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 129,
+      "name": "green_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 129,
+        "side": 129,
+        "bottom": 129
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 130,
+      "name": "green_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 130,
+        "side": 130,
+        "bottom": 130
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 131,
+      "name": "green_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 131,
+        "side": 131,
+        "bottom": 131
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 132,
+      "name": "green_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 132,
+        "side": 132,
+        "bottom": 132
+      },
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 133,
+      "name": "cyan_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 133,
+        "side": 133,
+        "bottom": 133
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 134,
+      "name": "cyan_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 134,
+        "side": 134,
+        "bottom": 134
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 135,
+      "name": "cyan_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 135,
+        "side": 135,
+        "bottom": 135
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 136,
+      "name": "cyan_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 136,
+        "side": 136,
+        "bottom": 136
+      },
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 137,
+      "name": "l_blue_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 137,
+        "side": 137,
+        "bottom": 137
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 138,
+      "name": "l_blue_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 138,
+        "side": 138,
+        "bottom": 138
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 139,
+      "name": "l_blue_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 139,
+        "side": 139,
+        "bottom": 139
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 140,
+      "name": "l_blue_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 140,
+        "side": 140,
+        "bottom": 140
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 141,
+      "name": "blue_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 141,
+        "side": 141,
+        "bottom": 141
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 142,
+      "name": "blue_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 142,
+        "side": 142,
+        "bottom": 142
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 143,
+      "name": "blue_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 143,
+        "side": 143,
+        "bottom": 143
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 144,
+      "name": "blue_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 144,
+        "side": 144,
+        "bottom": 144
+      },
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 145,
+      "name": "purple_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 145,
+        "side": 145,
+        "bottom": 145
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 146,
+      "name": "purple_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 146,
+        "side": 146,
+        "bottom": 146
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 147,
+      "name": "purple_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 147,
+        "side": 147,
+        "bottom": 147
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 148,
+      "name": "purple_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 148,
+        "side": 148,
+        "bottom": 148
+      },
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 149,
+      "name": "magenta_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 149,
+        "side": 149,
+        "bottom": 149
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 150,
+      "name": "magenta_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 150,
+        "side": 150,
+        "bottom": 150
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 151,
+      "name": "magenta_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 151,
+        "side": 151,
+        "bottom": 151
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 152,
+      "name": "magenta_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 152,
+        "side": 152,
+        "bottom": 152
+      },
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 153,
+      "name": "pink_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 153,
+        "side": 153,
+        "bottom": 153
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 154,
+      "name": "pink_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 154,
+        "side": 154,
+        "bottom": 154
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 155,
+      "name": "pink_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 155,
+        "side": 155,
+        "bottom": 155
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 156,
+      "name": "pink_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 156,
+        "side": 156,
+        "bottom": 156
+      },
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 157,
+      "name": "brown_jitter_slope_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 157,
+        "side": 157,
+        "bottom": 157
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 158,
+      "name": "brown_jitter_slope_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 158,
+        "side": 158,
+        "bottom": 158
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 159,
+      "name": "brown_jitter_slope_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 159,
+        "side": 159,
+        "bottom": 159
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 160,
+      "name": "brown_jitter_slope_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 160,
+        "side": 160,
+        "bottom": 160
+      },
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": true,
+        "jitterStrength": 0.05,
+        "lumaJitter": 0.03
+      }
+    },
+    {
+      "id": 161,
+      "name": "white_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 161,
+        "side": 161,
+        "bottom": 161
+      },
+      "texture": {
+        "color": "#FFFFFFAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 162,
+      "name": "l_gray_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 162,
+        "side": 162,
+        "bottom": 162
+      },
+      "texture": {
+        "color": "#C7C7C7AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 163,
+      "name": "gray_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 163,
+        "side": 163,
+        "bottom": 163
+      },
+      "texture": {
+        "color": "#7F7F7FAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 164,
+      "name": "black_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 164,
+        "side": 164,
+        "bottom": 164
+      },
+      "texture": {
+        "color": "#1A1A1AAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 165,
+      "name": "red_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 165,
+        "side": 165,
+        "bottom": 165
+      },
+      "texture": {
+        "color": "#FF3B30AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 166,
+      "name": "orange_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 166,
+        "side": 166,
+        "bottom": 166
+      },
+      "texture": {
+        "color": "#FF9500AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 167,
+      "name": "yellow_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 167,
+        "side": 167,
+        "bottom": 167
+      },
+      "texture": {
+        "color": "#FFD60AAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 168,
+      "name": "lime_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 168,
+        "side": 168,
+        "bottom": 168
+      },
+      "texture": {
+        "color": "#B7F200AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 169,
+      "name": "green_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 169,
+        "side": 169,
+        "bottom": 169
+      },
+      "texture": {
+        "color": "#34C759AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 170,
+      "name": "cyan_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 170,
+        "side": 170,
+        "bottom": 170
+      },
+      "texture": {
+        "color": "#32D7FFAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 171,
+      "name": "l_blue_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 171,
+        "side": 171,
+        "bottom": 171
+      },
+      "texture": {
+        "color": "#64D2FFAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 172,
+      "name": "blue_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 172,
+        "side": 172,
+        "bottom": 172
+      },
+      "texture": {
+        "color": "#0A84FFAA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 173,
+      "name": "purple_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 173,
+        "side": 173,
+        "bottom": 173
+      },
+      "texture": {
+        "color": "#BF5AF2AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 174,
+      "name": "magenta_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 174,
+        "side": 174,
+        "bottom": 174
+      },
+      "texture": {
+        "color": "#FF2D55AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 175,
+      "name": "pink_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 175,
+        "side": 175,
+        "bottom": 175
+      },
+      "texture": {
+        "color": "#FF7EB6AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 176,
+      "name": "brown_water",
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "opaque": false,
+      "solid": false,
+      "tiles": {
+        "top": 176,
+        "side": 176,
+        "bottom": 176
+      },
+      "texture": {
+        "color": "#8E6E53AA",
+        "jitter": false
+      },
+      "fluid": {
+        "type": "water",
+        "drag": 6.0,
+        "buoyancy": 4.0,
+        "gravityScale": 0.25,
+        "moveScale": 0.6
+      }
+    },
+    {
+      "id": 177,
+      "name": "white_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 177,
+        "side": 177,
+        "bottom": 177
+      },
+      "texture": {
+        "color": "#FFFFFF33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 178,
+      "name": "l_gray_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 178,
+        "side": 178,
+        "bottom": 178
+      },
+      "texture": {
+        "color": "#C7C7C733",
+        "jitter": false
+      }
+    },
+    {
+      "id": 179,
+      "name": "gray_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 179,
+        "side": 179,
+        "bottom": 179
+      },
+      "texture": {
+        "color": "#7F7F7F33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 180,
+      "name": "black_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 180,
+        "side": 180,
+        "bottom": 180
+      },
+      "texture": {
+        "color": "#1A1A1A33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 181,
+      "name": "red_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 181,
+        "side": 181,
+        "bottom": 181
+      },
+      "texture": {
+        "color": "#FF3B3033",
+        "jitter": false
+      }
+    },
+    {
+      "id": 182,
+      "name": "orange_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 182,
+        "side": 182,
+        "bottom": 182
+      },
+      "texture": {
+        "color": "#FF950033",
+        "jitter": false
+      }
+    },
+    {
+      "id": 183,
+      "name": "yellow_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 183,
+        "side": 183,
+        "bottom": 183
+      },
+      "texture": {
+        "color": "#FFD60A33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 184,
+      "name": "lime_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 184,
+        "side": 184,
+        "bottom": 184
+      },
+      "texture": {
+        "color": "#B7F20033",
+        "jitter": false
+      }
+    },
+    {
+      "id": 185,
+      "name": "green_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 185,
+        "side": 185,
+        "bottom": 185
+      },
+      "texture": {
+        "color": "#34C75933",
+        "jitter": false
+      }
+    },
+    {
+      "id": 186,
+      "name": "cyan_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 186,
+        "side": 186,
+        "bottom": 186
+      },
+      "texture": {
+        "color": "#32D7FF33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 187,
+      "name": "l_blue_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 187,
+        "side": 187,
+        "bottom": 187
+      },
+      "texture": {
+        "color": "#64D2FF33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 188,
+      "name": "blue_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 188,
+        "side": 188,
+        "bottom": 188
+      },
+      "texture": {
+        "color": "#0A84FF33",
+        "jitter": false
+      }
+    },
+    {
+      "id": 189,
+      "name": "purple_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 189,
+        "side": 189,
+        "bottom": 189
+      },
+      "texture": {
+        "color": "#BF5AF233",
+        "jitter": false
+      }
+    },
+    {
+      "id": 190,
+      "name": "magenta_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 190,
+        "side": 190,
+        "bottom": 190
+      },
+      "texture": {
+        "color": "#FF2D5533",
+        "jitter": false
+      }
+    },
+    {
+      "id": 191,
+      "name": "pink_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 191,
+        "side": 191,
+        "bottom": 191
+      },
+      "texture": {
+        "color": "#FF7EB633",
+        "jitter": false
+      }
+    },
+    {
+      "id": 192,
+      "name": "brown_glass",
+      "opaque": false,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "alpha",
+      "tiles": {
+        "top": 192,
+        "side": 192,
+        "bottom": 192
+      },
+      "texture": {
+        "color": "#8E6E5333",
+        "jitter": false
+      }
+    },
+    {
+      "id": 193,
+      "name": "white_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 193,
+        "side": 193,
+        "bottom": 193
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 194,
+      "name": "l_gray_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 194,
+        "side": 194,
+        "bottom": 194
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#C7C7C7FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 195,
+      "name": "gray_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 195,
+        "side": 195,
+        "bottom": 195
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#7F7F7FFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 196,
+      "name": "black_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 196,
+        "side": 196,
+        "bottom": 196
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#1A1A1AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 197,
+      "name": "red_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 197,
+        "side": 197,
+        "bottom": 197
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 198,
+      "name": "orange_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 198,
+        "side": 198,
+        "bottom": 198
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FF9500FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 199,
+      "name": "yellow_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 199,
+        "side": 199,
+        "bottom": 199
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FFD60AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 200,
+      "name": "lime_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 200,
+        "side": 200,
+        "bottom": 200
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#B7F200FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 201,
+      "name": "green_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 201,
+        "side": 201,
+        "bottom": 201
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 202,
+      "name": "cyan_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 202,
+        "side": 202,
+        "bottom": 202
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#32D7FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 203,
+      "name": "l_blue_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 203,
+        "side": 203,
+        "bottom": 203
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 204,
+      "name": "blue_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 204,
+        "side": 204,
+        "bottom": 204
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 205,
+      "name": "purple_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 205,
+        "side": 205,
+        "bottom": 205
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#BF5AF2FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 206,
+      "name": "magenta_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 206,
+        "side": 206,
+        "bottom": 206
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FF2D55FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 207,
+      "name": "pink_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 207,
+        "side": 207,
+        "bottom": 207
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#FF7EB6FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 208,
+      "name": "brown_light",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 208,
+        "side": 208,
+        "bottom": 208
+      },
+      "emission": 1,
+      "texture": {
+        "color": "#8E6E53FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 209,
+      "name": "white_button_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 209,
+        "side": 209,
+        "bottom": 209
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 210,
+      "name": "white_button_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 210,
+        "side": 210,
+        "bottom": 210
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 211,
+      "name": "white_switch_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 211,
+        "side": 211,
+        "bottom": 211
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 212,
+      "name": "white_switch_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 212,
+        "side": 212,
+        "bottom": 212
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 213,
+      "name": "white_wire_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 213,
+        "side": 213,
+        "bottom": 213
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#8C8C8CFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 214,
+      "name": "white_wire_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 214,
+        "side": 214,
+        "bottom": 214
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 215,
+      "name": "white_not_gate_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 215,
+        "side": 215,
+        "bottom": 215
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 216,
+      "name": "white_not_gate_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 216,
+        "side": 216,
+        "bottom": 216
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 217,
+      "name": "white_lamp_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 217,
+        "side": 217,
+        "bottom": 217
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#000000FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 218,
+      "name": "white_lamp_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 218,
+        "side": 218,
+        "bottom": 218
+      },
+      "emission": 1.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 219,
+      "name": "red_button_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 219,
+        "side": 219,
+        "bottom": 219
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 220,
+      "name": "red_button_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 220,
+        "side": 220,
+        "bottom": 220
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 221,
+      "name": "red_switch_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 221,
+        "side": 221,
+        "bottom": 221
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 222,
+      "name": "red_switch_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 222,
+        "side": 222,
+        "bottom": 222
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 223,
+      "name": "red_wire_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 223,
+        "side": 223,
+        "bottom": 223
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#8C201AFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 224,
+      "name": "red_wire_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 224,
+        "side": 224,
+        "bottom": 224
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 225,
+      "name": "red_not_gate_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 225,
+        "side": 225,
+        "bottom": 225
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 226,
+      "name": "red_not_gate_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 226,
+        "side": 226,
+        "bottom": 226
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FF3B30FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 227,
+      "name": "red_lamp_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 227,
+        "side": 227,
+        "bottom": 227
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#000000FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 228,
+      "name": "red_lamp_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 228,
+        "side": 228,
+        "bottom": 228
+      },
+      "emission": 1.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 229,
+      "name": "blue_button_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 229,
+        "side": 229,
+        "bottom": 229
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 230,
+      "name": "blue_button_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 230,
+        "side": 230,
+        "bottom": 230
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 231,
+      "name": "blue_switch_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 231,
+        "side": 231,
+        "bottom": 231
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 232,
+      "name": "blue_switch_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 232,
+        "side": 232,
+        "bottom": 232
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 233,
+      "name": "blue_wire_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 233,
+        "side": 233,
+        "bottom": 233
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#05498CFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 234,
+      "name": "blue_wire_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 234,
+        "side": 234,
+        "bottom": 234
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 235,
+      "name": "blue_not_gate_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 235,
+        "side": 235,
+        "bottom": 235
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 236,
+      "name": "blue_not_gate_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 236,
+        "side": 236,
+        "bottom": 236
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#0A84FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 237,
+      "name": "blue_lamp_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 237,
+        "side": 237,
+        "bottom": 237
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#000000FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 238,
+      "name": "blue_lamp_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 238,
+        "side": 238,
+        "bottom": 238
+      },
+      "emission": 1.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 239,
+      "name": "green_button_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 239,
+        "side": 239,
+        "bottom": 239
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 240,
+      "name": "green_button_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 240,
+        "side": 240,
+        "bottom": 240
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 241,
+      "name": "green_switch_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 241,
+        "side": 241,
+        "bottom": 241
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 242,
+      "name": "green_switch_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 242,
+        "side": 242,
+        "bottom": 242
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 243,
+      "name": "green_wire_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 243,
+        "side": 243,
+        "bottom": 243
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#1C6E31FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 244,
+      "name": "green_wire_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 244,
+        "side": 244,
+        "bottom": 244
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 245,
+      "name": "green_not_gate_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 245,
+        "side": 245,
+        "bottom": 245
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 246,
+      "name": "green_not_gate_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 246,
+        "side": 246,
+        "bottom": 246
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#34C759FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 247,
+      "name": "green_lamp_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 247,
+        "side": 247,
+        "bottom": 247
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#000000FF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 248,
+      "name": "green_lamp_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 248,
+        "side": 248,
+        "bottom": 248
+      },
+      "emission": 1.0,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 249,
+      "name": "l_blue_slope_dn_xp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_dn_xp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 249,
+        "side": 249,
+        "bottom": 249
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 250,
+      "name": "l_blue_slope_dn_xn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_dn_xn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 250,
+        "side": 250,
+        "bottom": 250
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 251,
+      "name": "l_blue_slope_dn_zp",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_dn_zp",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 251,
+        "side": 251,
+        "bottom": 251
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 252,
+      "name": "l_blue_slope_dn_zn",
+      "opaque": false,
+      "solid": true,
+      "shape": "slope_dn_zn",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 252,
+        "side": 252,
+        "bottom": 252
+      },
+      "texture": {
+        "color": "#64D2FFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 253,
+      "name": "universal_wire_off",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 253,
+        "side": 253,
+        "bottom": 253
+      },
+      "emission": 0.0,
+      "texture": {
+        "color": "#BFBFBFFF",
+        "jitter": false
+      }
+    },
+    {
+      "id": 254,
+      "name": "universal_wire_on",
+      "opaque": true,
+      "solid": true,
+      "shape": "cube",
+      "renderLayer": "opaque",
+      "tiles": {
+        "top": 254,
+        "side": 254,
+        "bottom": 254
+      },
+      "emission": 0.5,
+      "texture": {
+        "color": "#FFFFFFFF",
+        "jitter": false
+      }
+    }
+  ]
+}
