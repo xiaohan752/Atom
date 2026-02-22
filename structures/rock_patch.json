@@ -1,0 +1,39 @@
+{
+  "name": "rock_patch",
+  "enabled": true,
+
+  "spawn": {
+    "weight": 1.0,
+    "chancePerAnchor": 0.18,
+    "anchorGridChunks": 2,
+    "minDistance": 0,
+
+    "biomes": ["plains", "badlands", "snowfield"],
+    "terrainTypes": ["PLAINS", "HILLS", "PLATEAU"],
+
+    "heightMin": 50,
+    "heightMax": 180,
+    "onSurfaceOnly": true,
+    "surfaceMustBeSolid": true
+  },
+
+  "placement": {
+    "rotation": "y90",
+    "allowMirror": false,
+    "buryDepth": 1,
+    "replaceMode": "ANY",
+    "canReplace": [],
+    "forbidReplace": ["black_block_jitter"]
+  },
+
+  "size": { "x": 4, "y": 2, "z": 4 },
+
+  "blocks": [
+    { "x": 1, "y": 0, "z": 1, "id": "l_gray_block_jitter" },
+    { "x": 2, "y": 0, "z": 1, "id": "l_gray_block_jitter" },
+    { "x": 1, "y": 0, "z": 2, "id": "l_gray_block_jitter" },
+    { "x": 2, "y": 0, "z": 2, "id": "l_gray_block_jitter" },
+
+    { "x": 1, "y": 1, "z": 1, "id": "l_gray_block_jitter" }
+  ]
+}
