@@ -1,2 +1,0 @@
-rock_patch.json
-tree_oak.json
